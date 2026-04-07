@@ -2,9 +2,9 @@
 
 ## Proje Özeti
 
-Bu projede perakende satış verisi analiz edilerek kategori, bölge ve zaman bazında satış performansı incelenmiştir. 
-Amaç, satışların hangi alanlarda yoğunlaştığını belirlemek, düşük performans gösteren alanları tespit etmek ve analiz sonuçlarına dayalı öneriler geliştirmektir. 
-Analiz sürecinde spreadsheet araçları kullanılarak görselleştirmeler ve dashboard oluşturulmuştur.
+Bu projede, perakende satış verisi üzerinde çalışarak kendi analiz yaklaşımımı geliştirmeyi ve veri üzerinden iş çıkarımları yapmayı hedefledim. Kategori, bölge ve zaman bazlı analizler yaparak satış performansını inceleyip sonuçları görselleştirdim.
+
+---
 
 ## Amaç
 
@@ -12,66 +12,64 @@ Analiz sürecinde spreadsheet araçları kullanılarak görselleştirmeler ve da
 - En yüksek ve düşük performans gösteren kategori ve ürünleri belirlemek  
 - Bölgesel satış farklarını incelemek  
 - Zaman bazlı satış trendlerini analiz etmek  
-- Analiz sonuçlarına göre iş kararlarını destekleyecek öneriler geliştirmek
+- Analiz sonuçlarına göre öneriler geliştirmek  
+
+---
 
 ## Kullanılan Araçlar
 
 - Google Sheets (veri analizi ve görselleştirme)  
 - Pivot Table (veri özetleme ve analiz)  
-- Grafikler (bar chart, line chart)
+- Grafikler (bar chart, line chart)  
 
-## Yapılan Analizler
+---
+
+## 🔎 Yapılan Analizler
 
 - Kategori bazlı satış analizi  
 - Alt kategori (ürün grubu) bazlı satış analizi  
 - Bölge bazlı satış performansı analizi  
 - Zaman bazlı satış trend analizi (aylık ve çeyreklik)  
-- Kâr ve indirim etkisinin değerlendirilmesi
+- Kâr ve indirim etkisinin değerlendirilmesi  
+
+---
 
 ## Veri Kalitesi Problemleri
 
-Veri setinde tarih sütununda farklı formatlar (DD/MM/YYYY ve MM/DD/YYYY) kullanıldığı tespit edilmiştir. 
-Bu durum analiz sırasında hatalara yol açmıştır.
-Bu problem, tarih verisinin yeniden parse edilmesi ve tek bir formatta standardize edilmesi ile çözülmüştür.
-Ayrıca bazı satırlarda kâr (profit) değerinin satış (sales) değerinden yüksek olduğu gözlemlenmiş olup, bu durum veri kalitesi açısından değerlendirilmiştir.
+Analiz sırasında tarih sütununda farklı formatlar (DD/MM/YYYY ve MM/DD/YYYY) kullanıldığını fark ettim. 
+Bu durum analiz sırasında hatalara neden oluyordu.
+Bu problemi çözmek için tarih verisini yeniden düzenleyerek tek bir formatta standardize ettim ve analizleri bu temiz veri üzerinden gerçekleştirdim.
+
+Ayrıca bazı satırlarda kâr (profit) değerinin satış (sales) değerinden yüksek olduğunu gözlemledim. Bu durum veri kalitesi açısından dikkat edilmesi gereken bir nokta olarak değerlendirildi.
+
+---
 
 ## Analiz Sonuçları ve Öneriler
 
-- Furniture kategorisi en yüksek satışa sahip olup toplam satışların önemli bir kısmını oluşturmaktadır.
-Bu kategoriye yönelik stok ve kampanya stratejileri satışları artırabilir.
+- Furniture kategorisi en yüksek satışa sahip olup toplam satışların önemli bir kısmını oluşturmaktadır. Bu kategoriye yönelik yapılacak çalışmalar satışları daha da artırabilir.
 
-- Technology kategorisi hem satış hem de kârlılık açısından güçlü performans göstermektedir.
-Bu kategori stratejik olarak büyütülebilir.
+- Technology kategorisi hem satış hem de kârlılık açısından güçlü performans göstermektedir. Bu nedenle stratejik olarak büyütülebilecek bir alan olarak öne çıkmaktadır.
 
-- West bölgesi en yüksek satış performansına sahipken, South bölgesi en düşük performansı göstermektedir.
-Bu fark, mağaza sayısı, müşteri yoğunluğu veya ürün erişilebilirliği gibi faktörlerden kaynaklanıyor olabilir.
+- West bölgesi en yüksek satış performansına sahipken, South bölgesi daha düşük performans göstermektedir. Bu farkın nedenleri detaylı analiz edilerek bölgesel stratejiler geliştirilebilir.
 
-- Satışların belirli alt kategorilerde yoğunlaştığı görülmektedir.
-Bu durum ürün çeşitliliği açısından risk oluşturabilir ve daha dengeli bir dağılım için strateji geliştirilmesi gerekebilir.
+- Satışların belirli alt kategorilerde yoğunlaştığı görülmektedir. Bu durum ürün çeşitliliği açısından dengesizlik oluşturabilir.
 
-- Office Supplies kategorisinde yüksek indirim uygulanmasına rağmen satış performansının görece düşük kalması, indirim stratejisinin her zaman beklenen etkiyi yaratmadığını göstermektedir.
+- Office Supplies kategorisinde yüksek indirim uygulanmasına rağmen satış performansının düşük kalması, indirim stratejisinin her zaman etkili olmadığını göstermektedir.
 
-- Satışların çeyrekler bazında dalgalı bir seyir izlediği görülmektedir. Belirli dönemlerde yaşanan artışlar sezonluk talep veya kampanya etkisine işaret ediyor olabilir.
+- Zaman analizi, satışların dönemsel olarak dalgalandığını göstermektedir. Belirli dönemlerde yaşanan artışlar, sezonluk talep veya kampanyaların etkisine işaret ediyor olabilir.
 
-## Dashboard
+---
 
-Bu projede satış performansını görselleştirmek amacıyla Google Sheets kullanılarak bir dashboard oluşturulmuştur. 
-Dashboard üzerinde kategori, bölge ve zaman bazlı analizler görsel olarak sunulmuştur.
+## 📊 Dashboard
+
+Bu projede Google Sheets kullanılarak satış performansını görselleştiren bir dashboard oluşturdum. Dashboard üzerinde kategori, bölge ve zaman bazlı analizler sunulmaktadır.
 
 <img width="627" height="359" alt="Ekran Resmi 2026-04-07 04 21 30" src="https://github.com/user-attachments/assets/ee4b0fe5-e0df-4055-bda3-955726ca0956" />
+---
 
-## Sonuç
+## 📌 Sonuç
 
-Bu çalışma ile satış verisi detaylı şekilde analiz edilerek önemli performans farkları ve trendler ortaya çıkarılmıştır. 
-Elde edilen analiz sonuçları, iş kararlarını destekleyecek nitelikte olup, özellikle kategori, bölge ve zaman bazlı stratejiler geliştirilmesine katkı sağlayabilir.
-Ayrıca veri setinde tespit edilen veri kalitesi problemleri düzeltilerek analiz doğruluğu artırılmıştır.
-
-
-
-
-
-
-
+Bu çalışma sayesinde satış verisi üzerinden analiz yapma, veri temizleme ve görselleştirme süreçlerinde deneyim kazandım. Özellikle veri kalitesinin analiz sonuçlarını doğrudan etkilediğini gözlemledim ve bu doğrultuda veriyi düzenleyerek daha doğru sonuçlar elde ettim.
 
 
 
