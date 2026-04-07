@@ -24,7 +24,7 @@ Bu projede, perakende satış verisi üzerinde çalışarak kendi analiz yaklaş
 
 ---
 
-## 🔎 Yapılan Analizler
+## Yapılan Analizler
 
 - Kategori bazlı satış analizi  
 - Alt kategori (ürün grubu) bazlı satış analizi  
@@ -60,14 +60,14 @@ Ayrıca bazı satırlarda kâr (profit) değerinin satış (sales) değerinden y
 
 ---
 
-## 📊 Dashboard
+## Dashboard
 
 Bu projede Google Sheets kullanılarak satış performansını görselleştiren bir dashboard oluşturdum. Dashboard üzerinde kategori, bölge ve zaman bazlı analizler sunulmaktadır.
 
 <img width="627" height="359" alt="Ekran Resmi 2026-04-07 04 21 30" src="https://github.com/user-attachments/assets/ee4b0fe5-e0df-4055-bda3-955726ca0956" />
 ---
 
-## 📌 Sonuç
+## Sonuç
 
 Bu çalışma sayesinde satış verisi üzerinden analiz yapma, veri temizleme ve görselleştirme süreçlerinde deneyim kazandım. Özellikle veri kalitesinin analiz sonuçlarını doğrudan etkilediğini gözlemledim ve bu doğrultuda veriyi düzenleyerek daha doğru sonuçlar elde ettim.
 
